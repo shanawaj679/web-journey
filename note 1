@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="box">
+    <img height="250" class="image" src="/Screenshot 2024-11-16 at 9.13.49 PM.png" alt="">
+    <a href="/program.html"><button class="box2" type="button">programing language  </button></a>
+    <button class="box2" type="button">bar chart</button>
+    <button class="box2" type="button">histogram</button>
+    <button class="box2" type="button">scatter table</button>
+    <p class="para" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium aliquam placeat perspiciatis, odio assumenda fuga minima. Impedit accusantium possimus itaque!</p>
+   </div>
+
+   
+ </body>
+</html>
+
+
+css
+.box{
+   height:40em;
+   width:30em;
+   border: solid;
+   border-color: black;
+   background-color: aqua;
+   margin-left:40%;
+   border-radius:1em;
+}
+.image{
+   margin-top: 1em;
+   margin-left:1em;
+   margin-right:1em;
+}
+.box2{
+   color: antiquewhite;
+   background-color: blue;
+   border-radius:1em;
+   margin-top:1em;
+   margin-left:1em;
+}
+.para{
+   color: rgb(175, 15, 228);
+   margin-left:1em;
+   
+}
+.font1{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+2nd html program
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>PROGRAMING LANGUAGES</h1>
+    <ol>
+        <li>C++</li>
+        <li>PYTHON</li>
+        <li>RUBY</li>
+        <li>JAVA SCRIPT</li>
+        <li>JAVA</li>
+    
+    </ol>
+    <p class="font1" >Here most used programing language is  C++ and followed by other programing languages</p>
+</body>
+</html>

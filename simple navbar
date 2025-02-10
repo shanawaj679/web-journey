@@ -1,0 +1,52 @@
+//html//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>simple navbar</title>
+</head>
+<body>
+    <header>
+        <div class="clas">
+           <a href="https://www.ruchiskitchen.com"> <img class="cs" src="/Screenshot 2025-02-10 at 10.50.41 AM.png" alt=""></a>
+           <div class="flexing">
+           <a href="https://www.ruchiskitchen.com"> <button class="im" type="button"> HOME</button></a> 
+           <a href="https://www.ruchiskitchen.com/category/recipes/"> <button class="im" type="button"> RECIPES</button></a> 
+           <a href="https://www.ruchiskitchen.com/category/reference-guide/"> <button class="im" type="button"> GUIDES</button></a> 
+           <a href="https://www.amazon.com/shop/ruchiskitchen"> <button class="im" type="button"> SHOP</button></a> 
+           <a href="https://www.ruchiskitchen.com/about-us/"> <button class="im" type="button"> ABOUT</button></a> 
+          
+           </div>
+        </div>
+    </header>
+   
+</body>
+</html>
+//css//
+.clas{
+    margin:2em;
+    border:solid;
+    height:200px;
+    width: auto;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+  
+}
+.cs{
+    float:left;
+    height:150px;
+    width:300px;
+}
+.flexing{
+    display: flex;
+    justify-content:flex-end;
+    
+}
+.im{
+    margin:2em;
+    border-radius: 1em;
+    border-color: blanchedalmond;
+    background-color: burlywood;
+}

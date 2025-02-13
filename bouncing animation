@@ -1,0 +1,51 @@
+//html//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+       <div class="pa"><div><p><u><i><b>priye</b></i></u></p></div></div>
+              
+        </div>
+    </div>
+</body>
+</html>
+//css//
+.parent{
+    border: solid;
+    height:500px;
+    width:500px;
+    background-color:goldenrod;
+}
+.child{
+    height:100px;
+    width:100px;
+    border: solid;
+    background-color:rgb(68, 123, 240);
+    border-radius: 5em;
+animation: name duration timing-function delay iteration-count direction fill-mode;
+animation-name: identifier;
+animation-duration:1s;
+animation-direction:alternate-reverse;
+animation-iteration-count: infinite;
+animation-timing-function:cubic-bezier(1, 0.15, 1, 1);
+}
+.pa{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+@keyframes identifier {
+    from{
+    
+    }
+    to{
+         transform: translatey(400px);
+    }
+} 

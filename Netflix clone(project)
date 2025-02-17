@@ -31,14 +31,38 @@
             <h3 class="h4">Ready to watch? Enter your email to create or restart your membership.</h3>
         </div>
         <div>
-            <button class="h5" type="button">Email Adress</button>
+            <input class="h5" type="email" value="Email Adress">
         </div>
         <div>
             <button class="h6" type="button"> Get Started ></button>
         </div>
     </div>
+    <div class="h7"><h1 class="h1">Trending Now</h1></div>
 </main>
-
+<footer>
+      <div class="h8">
+          <div class="childu"><h2>1</h2></div>
+          <div class="childu1"><h2>2</h2></div>
+          <div class="childu2"><h2>3</h2></div>
+          <div class="childu3"><h2>4</h2></div>
+          <div class="childu4"><h2>5</h2></div>
+          <div class="childu5"><h2>6</h2></div>
+          <div class="childu6"><h2>7</h2></div>
+          <div class="childu7"><h2>8</h2></div>
+          <div class="childu8"><h2>9</h2></div>
+          <div class="childu9"><h2>10</h2></div>
+      </div> 
+      <div class="h10">
+        <div><h1 class="h11">More reasons to join </h1></div>
+        <div class="hm">
+            <div class="hc" ><h2 class="h12">Enjoy on your TV</h2><p class="h12">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+             </div>
+            <div class="hc" ><h2 class="h12">Download your shows to watch offline</h2> <p class="h12">Save your favourites easily and always have something to watch.</p> </div>
+            <div class="hc" ><h2 class="h12">Watch everywhere</h2> <p class="h12">Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p></div>
+            <div class="hc" ><h2 class="h12">Create profiles for kids</h2><p class="h12">Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p> </div>
+        </div>
+      </div>
+</footer>
 </body>
 </html>
 //css//
@@ -58,7 +82,6 @@ main .box{
     background-color:black;
     filter:blur(16px); 
 }
-
 .head{
     float: left;
   width:10em;
@@ -136,4 +159,113 @@ main .box{
     border-color:rgb(255, 0, 0);
     color:white;
     background-color: red;
+}
+.h7{
+    height:100px;
+    background-color: black;
+    width:100%;
+    color:white;
+}
+.h1{
+    margin-top:2em;
+    margin-left:5em;
+}
+.h8{
+    background-color:black;
+    height:190px;
+    width:100%;
+    display:grid;
+    gap:5px;
+}
+.childu{
+    color:rgb(243, 148, 255);
+    grid-row:1/10;
+    background-image:url("https://static.toiimg.com/photo/115989021.cms?imgsize=433878");
+    background-size:cover;
+    border-radius: 5px;
+}
+.childu1{
+    color:rgb(243, 148, 255);
+    grid-row:1/10;
+    background-image:url("https://m.media-amazon.com/images/M/MV5BMDA0NDBkMzMtOWQ0Zi00NjE1LTkxNWYtYzI0MTE0NGJjZTQ1XkEyXkFqcGc@._V1_.jpg");
+    background-size:cover;
+    border-radius: 5px;
+}
+.childu2{
+    color:rgb(243, 148, 255);
+    grid-row:1/10;
+    background-image:url("https://i.pinimg.com/originals/99/b6/3d/99b63dc9c4877ce14b7ab6520f5037a7.jpg");
+    background-size:cover;
+    border-radius: 5px;
+}
+.childu3{
+    color:rgb(243, 148, 255);
+    grid-row:1/10;
+    background-image:url("https://m.media-amazon.com/images/M/MV5BM2QyYjYwYzUtZGJkYy00MDc3LTk1MzEtNTQwMjE1OTYxOWZhXkEyXkFqcGc@._V1_.jpg");
+    background-size:cover;
+    border-radius: 5px;
+}
+.childu4{
+    color:rgb(243, 148, 255);
+    grid-row:1/10;
+    background-image:url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202502/kadhalikka-neramillai-glimpse-034632944-3x4.jpg?VersionId=o3OxAYiOuGGUPlVzVubDS9hiQjqZYVbW");
+    background-size:cover;
+    border-radius: 5px;
+}
+.childu5{
+    color:rgb(243, 148, 255);
+    grid-row:1/10;
+    background-image:url("https://stat5.bollywoodhungama.in/wp-content/uploads/2024/10/Bhool-Bhulaiyaa-3-322x402.jpeg");
+    background-size:cover;
+    border-radius: 5px;
+}
+.childu6{ color:rgb(243, 148, 255);
+    grid-row:1/10;
+    background-image:url("https://m.media-amazon.com/images/M/MV5BYmMwNzdkNzAtNzhkMS00MzI0LWI2NzktMDdiNjlkMWU3Y2ViXkEyXkFqcGc@._V1_.jpg");
+    background-size:cover;
+    border-radius: 5px;
+}
+.childu7{ color:rgb(243, 148, 255);
+    grid-row:1/10;
+    background-image:url("https://stat5.bollywoodhungama.in/wp-content/uploads/2025/01/Dhoom-Dhaam.jpg");
+    background-size:cover;
+    border-radius: 5px;
+}
+.childu8{ color:rgb(243, 148, 255);
+    grid-row:1/10;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTETkpJYUZ3W0U4VVDFifTtI-4UDlIwfefmTQ&s");
+    background-size:cover;
+    border-radius: 5px;
+}
+.childu9{color:rgb(243, 148, 255);
+     grid-row:1/10;
+    background-image:url("https://resizing.flixster.com/iLuiDXgdVKW5so3zpwZEVI36EnY=/fit-in/1152x864/v2/https://resizing.flixster.com/-ku551mocld0lXWnQrbCly0n5pw=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYWIxNjc4OTItNjAyMi00NjI1LWJkZDQtNGVmMTM5M2EwMGY1LmpwZw==");
+    background-size:cover;
+    border-radius: 5px;
+}
+.h10{
+    height:400px;
+    width: 100%;
+    background-color:black;
+}
+.h11{
+    color:white;
+    padding-top: 2em;
+    margin-left:5em;
+}
+.hm{
+    margin-top:1em;
+    display:flex;
+}
+.hc{
+    color:white;
+    margin:15px;
+    height:250px;
+    width:400px;
+    border-width:5px;
+    border-radius:5px;
+    background-color: rgb(151, 62, 235);
+}
+.h12{
+    margin:15px;
 }

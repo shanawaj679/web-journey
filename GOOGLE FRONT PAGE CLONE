@@ -1,0 +1,207 @@
+//HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+    <main>
+      <div class="nav">
+          <div>
+                 <button class="button" type="button">About</button>
+                 <button class="button" type="button">Store</button>
+                 <button class="button2" type="button"> Sign in</button>
+                 <button class="image" type="button"> <img height="15px" src="/Screenshot 2025-03-10 at 8.24.55 PM.png" alt=""> </button>
+                 <button class="button1" type="button">Images</button>
+                 <button class="button1" type="button">Gmail</button>     
+          </div>
+      </div>
+     <div class="parent">
+        <div class="child">
+               <h1 class="font">Google</h1>
+        </div>
+        <input class="input1" type="text" name="" id="">
+        <div>
+            <button class="bt1" type="button">Google Search</button>
+            <button class="bt1" type="button">I'm feeling lucky</button>
+        </div>
+     </div>
+     <div class="bot1">
+        <div>
+            <p class="ind">india</p>
+        </div>
+     </div>
+     <div class="bot2">
+        <div class="bot23">
+        <div class="bot21">
+             <p>Advertising</p>
+        </div>
+        <div class="bot21">
+            <p>Business</p>
+       </div>
+       <div class="bot21">
+        <p>How Search Works</p>
+   </div></div>
+   <div class="parentu">
+    <div class="childu">
+        <p class="bot22">Settings</p>
+        <p class="bot22">Terms</p>
+        <p class="bot22">Privacy</p>
+    </div>
+   </div>
+    
+    </main>
+  
+</body>
+</html>
+//CSS CODE
+*{
+    padding:0;
+    margin:0;
+}
+main{
+  height:99.7vh;
+  width:99.8vw;
+    border:solid;
+    border-color:rgb(21,21,28);
+    background-color: rgb(21, 21, 28);
+}
+main .nav{
+    height:50px;
+    width:99.8vw;
+}
+.button{
+    font-size:13px;
+    color:white;
+    border-color:rgb(42, 42, 42);
+    background-color: rgb(42, 42, 42);
+    border-radius:2em;
+    margin-left:20px;
+    margin-top:20px;
+}
+.button:hover{
+   text-decoration: underline;
+}
+.button1{
+    float:right;
+    font-size:13px;
+    color:white;
+    border-color:rgb(42, 42, 42);
+    background-color: rgb(42, 42, 42);
+    border-radius:2em;
+    margin-right:20px;
+    margin-top:20px;
+}
+.image{
+    margin-right:20px;
+    margin-top:20px;
+    float:right;
+    border-color:rgb(42, 42, 42);
+    background-color: rgb(42, 42, 42);
+}
+.button2{
+float:right;
+font-size: 16px;
+height:40px;
+width:85px;
+margin-right:20px;
+margin-top:10px;
+background-color:rgb(171, 227, 255);
+border-radius:2em;
+}
+.button1:hover{
+    text-decoration: underline;
+ }
+ .parent{
+    height:83vh;
+    display:flex;
+    justify-content:center;
+  align-items: center;
+  flex-direction:column;
+ }
+ .child{
+    color:white;
+    font-family:sans-serif;
+    font-size:45px;
+    margin-bottom:25px;
+ }
+ .font{
+    font-weight:500;
+ }
+ .input1{
+    color:white;
+    font-size:20px;
+    height:40px;
+    width:550px;
+    border-radius:5em;
+    background-color: rgb(85, 85, 85) ;
+    margin-bottom:25px;
+ }
+.bt1{
+    border:solid;
+    color:white;
+height:40px;
+width:130px;
+font-size:15px;
+background-color: rgb(85,85,85);
+border-color:rgb(85,85,85);
+margin-bottom:6em;
+margin-left:10px;
+border-radius:5px;
+transition: all 0s ease-in-out;
+}
+.bt1:hover{
+    border:2px solid white;
+}
+.ind{
+    margin-left:20px;
+}
+.bot1{
+    color:white;
+    height:40px;
+    width:99.9vw;
+   font-size:larger;
+    background-color:rgb(34, 34, 34);
+    border: 1px solid #000;
+    display:flex;
+    align-items:center;
+    border-bottom-color: rgb(112, 112, 112);
+}
+.bot2{
+    color:white;
+    height:40px;
+    width:99.6vw;
+   font-size:larger;
+    background-color:rgb(34, 34, 34);
+    border:solid;
+    border-color: rgb(34, 34, 34);
+   padding-top:6px;
+}
+.bot21{
+    margin-left:20px;
+}
+.bot21:hover{
+   text-decoration: underline;
+}
+.bot22{
+    float:right;
+    margin-right:20px;
+}
+.bot22:hover{
+    text-decoration: underline;
+}
+.parentu{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   float: right;
+}
+.bot23{
+    display:flex;
+    align-items:center;
+    float:left;
+}
+

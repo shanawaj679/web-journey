@@ -1,0 +1,48 @@
+//htmml//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Change Color Automatically</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+    <div class="child" id="myBox"></div>
+    <div class="child" id="box1"> <p>hi</p></div>
+    <div class="child" id="box2"><p>hello</p></div>
+    <div class="child" id="box3"><p>how </p></div>
+    <div class="child" id="box4"><p>are</p></div>
+    <div class="child" id="box5"><p>you</p></div>
+
+    <script>
+
+           let bj=document.getElementsByClassName("child");
+           let a= Math.floor(Math.random()*6);
+           if(a==0){
+            bj[0].style.backgroundColor="red";
+           }
+           if(a==1){
+            bj[1].style.backgroundColor='green';
+           }
+           if(a==2){
+            bj[2].style.backgroundColor='purple';
+           }
+           if(a==3){
+            bj[3].style.backgroundColor='blue';
+           }
+           if(a==4){
+            bj[4].style.backgroundColor='brown';
+           }
+           if(a==5){
+            bj[5].style.backgroundColor='orange';
+           }
+        
+    </script>
+</body>
+</html>
+//css//
+.child{
+    height:100px;
+    width:100px;
+    border: solid;
+    margin:10px;
+}

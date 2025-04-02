@@ -1,0 +1,49 @@
+//simple project which takes multiple inputs//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ma1">  <img height="100px" src="/Screenshot 2025-03-31 at 5.40.27 PM copy.png" alt=""></div>
+    <div id="q1"> </div>
+    <div id="q2"> </div>
+    <div id="q3"> </div>
+    <div id="q4"> </div>
+
+
+    <script>
+        let a = [];
+
+        function printname() {
+            for (let i = 0; i < 4; i++) {
+                if (i == 0) {
+                    let b = prompt("Enter the channel name");
+                    a.push(b);
+                    document.getElementById("q1").innerText = b; // Set value inside div
+                }
+                if (i == 1) {
+                    let c = prompt("Enter the video title");
+                    a.push(c);
+                    document.getElementById("q2").innerText = c;
+                }
+                if (i == 2) {
+                    let d = prompt("Enter the amount of views");
+                    a.push(d);
+                    document.getElementById("q3").innerText = d;
+                }
+                if (i == 3) {
+                    let e = prompt("Enter the time duration");
+                    a.push(e);
+                    document.getElementById("q4").innerText = e;
+                }
+            }
+        }
+
+        printname();
+    </script>
+</body>
+</html>

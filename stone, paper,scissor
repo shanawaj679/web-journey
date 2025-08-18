@@ -99,3 +99,56 @@
     </script>
 </body>
 </html>
+//css//
+*{
+    padding:0;
+    margin:0;
+}
+main{
+    height:100vh;
+    border:2px solid transparent;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url("https://static1.thetravelimages.com/wordpress/wp-content/uploads/2023/08/resized-image-promo-2023-08-08t154612-708.jpeg?q=50&fit=crop&w=1100&h=618&dpr=1.5");
+    background-size:cover;
+}
+.page{
+    height:60vh;
+    width:30vw;
+    border:2px solid transparent;
+}
+.image{
+    height:25vh;
+    width:30vw;
+    border:0px solid;
+     background-image:url("https://static1.thetravelimages.com/wordpress/wp-content/uploads/2023/08/resized-image-promo-2023-08-08t154612-708.jpeg?q=50&fit=crop&w=1100&h=618&dpr=1.5");
+    background-size:cover;
+}
+.docs{
+    height:35vh;
+    width:30vw;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.box{
+    height:30vh;
+    width:20vw;
+    border:2px solid  transparent;
+}
+input::placeholder{
+    color:black;
+}
+.username {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOsW-qK0rQcWNv6iv95_4FLuVML1V4IM-51g&s") no-repeat left center;
+  background-size: 20px;
+  padding-left: 30px; 
+}
+.pasword{
+    background: url("data:image/png;base64,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") no-repeat left center;
+    background-size:20px;
+    padding-left:30px;
+}
+

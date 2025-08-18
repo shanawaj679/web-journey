@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="rock()" id="rohan" style="border:2px solid transparent; height: 100px;color: lab(79.9% 16.69 39.51); background-color: black;">ROCK</button>
+    <button onclick="paper()" id="papu" style="border:2px solid transparent; height: 100px;color:lab(79.9% 16.69 39.51); background-color: black;">PAPER</button>
+    <button onclick="scissor()" id="sisu" style="border:2px solid transparent; height: 100px;color:lab(79.9% 16.69 39.51); background-color: black;">SCISSOR</button>
+    <h2 style="color: rgb(0, 0, 0); font-size: larger; font-family: fantasy;" id="imp"></h2>
+    </div>
+    <script> 
+   
+    function rock(){
+         let a,b,c,d;
+        b=document.getElementById("rohan").innerText;
+        a =Math.random();
+        if(a<1/3){
+          c ="ROCK";
+        }
+        else if(a>1/3 && a< 2/3){
+            c="SCISSOR";
+        }
+        else{
+            c="PAPER";
+        }
+    
+     if(b === c){
+          console.log("you clicked ",b,"and computer chose",c,"oh, it's TIE");
+         document.getElementById("imp").innerText = `You clicked ${b} and computer chose ${c} — oh, it's TIE`;
+     }
+     else if(c === "PAPER"){
+        console.log("you clicked ",b,"and computer chose",c,"alas, you LOOSE");
+         document.getElementById("imp").innerText = `You clicked ${b} and computer chose ${c} — alas you loose`;
+     }
+     else if(c === "SCISSOR"){
+         console.log("you clicked ",b,"and computer chose",c,"yeh, you WIN");
+          document.getElementById("imp").innerText = `You clicked ${b} and computer chose ${c} — hurray you win`;
+     }
+
+    }
+     function paper(){
+         let a,b,c;
+        b=document.getElementById("papu").innerText;
+        a =Math.random();
+        if(a<1/3){
+          c ="ROCK";
+        }
+        else if(a>1/3 && a< 2/3){
+            c="SCISSOR";
+        }
+        else{
+            c="PAPER";
+        }
+          if(b === c){
+          console.log("you clicked ",b,"and computer chose",c,"oh, it's TIE");
+           document.getElementById("imp").innerText = `You clicked ${b} and computer chose ${c} — oh, it's TIE`;
+     }
+     else if(c === "ROCK"){
+        console.log("you clicked ",b,"and computer chose",c,"yesss, you WIN");
+         document.getElementById("imp").innerText = `You clicked ${b} and computer chose ${c} — yeeess, you win`;
+     }
+     else if(c === "SCISSOR"){
+         console.log("you clicked ",b,"and computer chose",c,"ohhhh, you LOOSE");
+          document.getElementById("imp").innerText = `You clicked ${b} and computer chose ${c} — it's fate had to loose`;
+     }
+     
+    }
+     function scissor(){
+         let a,b,c;
+        b=document.getElementById("sisu").innerText;
+        a =Math.random();
+        if(a<1/3){
+          c ="ROCK";
+        }
+        else if(a>1/3 && a< 2/3){
+            c="SCISSOR";
+        }
+        else{
+            c="PAPER";
+        }
+      if(b === c){
+          console.log("you clicked ",b,"and computer chose",c,"oh, it's TIE");
+           document.getElementById("imp").innerText = `You clicked ${b} and computer chose ${c} — oh, it's TIE`;
+     }
+     else if(c === "PAPER"){
+        console.log("you clicked ",b,"and computer chose",c,"alas, you WIN");
+         document.getElementById("imp").innerText = `You clicked ${b} and computer chose ${c} — oh, i won`;
+     }
+     else if(c === "ROCK"){
+         console.log("you clicked ",b,"and computer chose",c,"yeh, you LOOSE");
+          document.getElementById("imp").innerText = `You clicked ${b} and computer chose ${c} — eww i loose`;
+     }
+    }
+           
+    </script>
+</body>
+</html>

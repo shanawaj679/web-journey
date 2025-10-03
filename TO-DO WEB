@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input style="height:30px; width:180px; margin:20px;" class="in" id="input" type="text" placeholder="enter todo">
+    <input style="height:30px; width:130px; margin:20px;" type="date" name="" id="tarik">
+    <button style="height:30px; width:80px; margin:20px; background-color: rgb(90, 244, 90); border:0px;" id="btn" type="submit">ADD</button>
+    <div id="output" class="grid"></div>
+    <script>
+        let a,b;
+        const p=[];
+         document.getElementById("btn").addEventListener("click", function(){
+             a=document.querySelector("#input").value;
+             b=document.querySelector("#tarik").value;
+            if(a===""){
+                alert("please enter valid todo!");
+                return;
+            }
+            else if(b===""){
+                alert("please enter valid date");
+                return;
+            }
+            p.push({name:a,duedate:b});
+            display();
+         })
+                   function display(){
+             let html=document.getElementById("output");
+                  html.innerHTML="";
+            for(let i=0;i<p.length;i++){
+               html.innerHTML +=`
+               <div style="height:30px;  margin:20px;">${p[i].name}</div>
+               <div style="height:30px;  margin:20px;">${p[i].duedate}</div>
+               <button style="height:30px;  margin:20px; background-color:red; border:0px;" onclick="remove(${i})">DELETE</button>`
+            }
+         }
+         function remove(i){
+                 p.splice(i,1);
+                 display();
+         }
+    </script>
+</body>
+
+</html>
+//css//
+*{
+  margin:0;
+  padding:0;
+}
+.grid{
+  display:grid;
+  grid-template-columns:240px 180px 120px;
+}
+.in::placeholder{
+  padding-left:20px;
+  color:black;
+}
